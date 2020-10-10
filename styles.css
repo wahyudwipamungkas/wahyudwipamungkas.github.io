@@ -201,13 +201,14 @@ img{
 }
 .home__social{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
   color: var(--second-color);
+  padding: 10px;
 }
 .home__social-icon:hover{
   color: var(--first-color);
